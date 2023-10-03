@@ -1,0 +1,10 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+note over server:
+Browser sends note to update Server notes
+end note 
+
+server-->browser: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
+
+note over browser:
+Server responds with updated notes 
+end note
